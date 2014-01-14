@@ -1,11 +1,20 @@
 <?xml version="1.0"?>
 <config>
+    <modules>
+        <Advancedit_Inline>
+            <version>0.0.1</version>
+        </Advancedit_Inline>
+    </modules>
     <global>
-        <models>
-        </models>    
+       <blocks>
+           <adminhtml>
+               <advancedit_inline>
+                   <class>Advancedit_Inline_Block_Adminhtml_Catalog_Product_Edit</class>
+               </advancedit_inline>    
+               <rewrite>
+                   <catalog_product_edit>Advancedit_Inline_Block_Adminhtml_Catalog_Product_Edit</catalog_product_edit>
+               </rewrite>
+           </adminhtml>
+       </blocks>    
     </global>
-    <frontend>
-    </frontend>
-    <adminhtml>
-    </adminhtml>    
 </config>
