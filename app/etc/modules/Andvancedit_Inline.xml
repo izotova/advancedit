@@ -1,8 +1,12 @@
- <config>
+<?xml version="1.0" encoding="UTF-8"?> 
+<config>
     <modules>
         <Andvancedit_Inline>
             <active>true</active>
             <codePool>local</codePool>
+            <depends>
+                <Mage_Adminhtml/>
+            </depends>
         </Andvancedit_Inline>
     </modules>
  </config>

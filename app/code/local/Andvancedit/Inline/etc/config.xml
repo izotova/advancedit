@@ -7,14 +7,12 @@
     </modules>
     <global>
        <blocks>
-           <adminhtml>
-               <advancedit_inline>
-                   <class>Advancedit_Inline_Block_Adminhtml_Catalog_Product_Edit</class>
-               </advancedit_inline>    
-               <rewrite>
-                   <catalog_product_edit>Advancedit_Inline_Block_Adminhtml_Catalog_Product_Edit</catalog_product_edit>
-               </rewrite>
-           </adminhtml>
-       </blocks>    
+            <adminhtml>
+                <rewrite> 
+                      <catalog_product_edit>Advancedit_Inline_Block_Adminhtml_Catalog_Product_Edit</catalog_product_edit>
+                      <widget_grid_column>Advancedit_Inline_Block_Adminhtml_Widget_Grid_Column</widget_grid_column>
+                </rewrite> 
+            </adminhtml>   
+       </blocks>
     </global>
 </config>
